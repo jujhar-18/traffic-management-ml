@@ -39,14 +39,6 @@ def Gui():
 
     root.mainloop()
 
-def place_images(root, canvas):
-    import os
-    images = os.listdir("res")
-    for i, image in enumerate(images):
-        image_path = f"res/predictions_{i}.jpg"
-        img = PhotoImage(file=image_path, master=root)
-        canvas.create_image(600, 200 + i * 200, anchor=NW, image=img)
-
 def predict_images():
     import os
     rf = Roboflow(api_key="DYe0WMTfD3huHILhJ9eI")
@@ -84,7 +76,8 @@ def roboflow(root, canvas):
     # Release the video capture object
     video_capture.release()
     predict_images()
-    place_images(root, canvas)
+    print("(!) Prediction Done! (!)")
+    print("Predicted Images will be present in 'res' folder")
 
 
 if __name__ == "__main__":
