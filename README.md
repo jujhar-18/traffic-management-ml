@@ -36,7 +36,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/intelligent-traffic-management-system.git
+   git clone [https://github.com/yourusername/intelligent-traffic-management-system.git](https://github.com/jujhar-18/traffic-management-ml.git)
    ```
 
 2. Navigate to the project directory:
