@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Intelligent Traffic Management System** is a cutting-edge project developed during a 24-hour hackathon. This system aims to optimize traffic signal delays and improve overall traffic flow using advanced computer vision and machine learning techniques.
+This system aims to optimize traffic signal delays and improve overall traffic flow using advanced computer vision and machine learning techniques.
 
 <img src="/images/hero-image.jpg">
 
